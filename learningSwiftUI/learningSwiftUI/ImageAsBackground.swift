@@ -23,6 +23,14 @@ struct ImageAsBackground: View {
                 .aspectRatio(contentMode: .fill)
         )
         .cornerRadius(20)
+        .overlay(
+            Image(systemName: "xmark")
+                .foregroundColor(.white)
+                .frame(width: 32, height: 32)
+                .background(Circle().stroke().foregroundColor(.white))
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                .padding()
+        )
         
     }
 }
