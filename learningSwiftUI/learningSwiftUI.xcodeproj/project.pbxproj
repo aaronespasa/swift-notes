@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		937FB6FB27A0851D003F48D9 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937FB6FA27A0851D003F48D9 /* ToolbarView.swift */; };
 		93BB7CB927A06FB400ECBD65 /* learningSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CB827A06FB400ECBD65 /* learningSwiftUIApp.swift */; };
 		93BB7CBB27A06FB400ECBD65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CBA27A06FB400ECBD65 /* ContentView.swift */; };
 		93BB7CBD27A06FB500ECBD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BB7CBC27A06FB500ECBD65 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		937FB6FA27A0851D003F48D9 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 		93BB7CB527A06FB400ECBD65 /* learningSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learningSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BB7CB827A06FB400ECBD65 /* learningSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningSwiftUIApp.swift; sourceTree = "<group>"; };
 		93BB7CBA27A06FB400ECBD65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		937FB6F927A08505003F48D9 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				937FB6FA27A0851D003F48D9 /* ToolbarView.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
 		93BB7CAC27A06FB400ECBD65 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		93BB7CB727A06FB400ECBD65 /* learningSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				937FB6F927A08505003F48D9 /* Toolbar */,
 				93BB7CEE27A07B7E00ECBD65 /* Sidebar */,
 				93BB7CB827A06FB400ECBD65 /* learningSwiftUIApp.swift */,
 				93BB7CE227A0728600ECBD65 /* Stacks.swift */,
@@ -285,6 +296,7 @@
 			files = (
 				93BB7CED27A07A3F00ECBD65 /* TutorialsView.swift in Sources */,
 				93BB7CE327A0728600ECBD65 /* Stacks.swift in Sources */,
+				937FB6FB27A0851D003F48D9 /* ToolbarView.swift in Sources */,
 				93BB7CEB27A07A1900ECBD65 /* HomeView.swift in Sources */,
 				93BB7CBB27A06FB400ECBD65 /* ContentView.swift in Sources */,
 				93BB7CB927A06FB400ECBD65 /* learningSwiftUIApp.swift in Sources */,
