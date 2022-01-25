@@ -13,7 +13,7 @@ struct ImageAsBackground: View {
             Text("Color literal")
                 .font(.title).bold()
                 .foregroundColor(.white)
-                .shadow(radius: /*@START_MENU_TOKEN@*/15/*@END_MENU_TOKEN@*/)
+                .shadow(radius: 20)
 //                .foregroundColor(/*@START_MENU_TOKEN@*/Color(hue: 0.565, saturation: 0.939, brightness: 1.0)/*@END_MENU_TOKEN@*/)
         }
         .frame(width: 300, height: 200)
@@ -23,6 +23,18 @@ struct ImageAsBackground: View {
                 .aspectRatio(contentMode: .fill)
         )
         .cornerRadius(20)
+        .shadow(
+            color: Color.blue.opacity(0.3),
+            radius: 20,
+            x: 0.0,
+            y: 10.0
+        )
+        .shadow(
+            color: Color.blue.opacity(0.2),
+            radius: 5,
+            x: 0.0,
+            y: 2
+        )
         .overlay(
             Image(systemName: "xmark")
                 .foregroundColor(.white)
