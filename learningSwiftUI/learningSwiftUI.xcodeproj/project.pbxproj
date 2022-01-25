@@ -16,6 +16,7 @@
 		93BB7CD627A06FB500ECBD65 /* learningSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CD527A06FB500ECBD65 /* learningSwiftUIUITestsLaunchTests.swift */; };
 		93BB7CE327A0728600ECBD65 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CE227A0728600ECBD65 /* Stacks.swift */; };
 		93BB7CE527A0738400ECBD65 /* BadgeWithBlueBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CE427A0738400ECBD65 /* BadgeWithBlueBackground.swift */; };
+		93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CE627A073C700ECBD65 /* ImageAsBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		93BB7CD527A06FB500ECBD65 /* learningSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		93BB7CE227A0728600ECBD65 /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		93BB7CE427A0738400ECBD65 /* BadgeWithBlueBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeWithBlueBackground.swift; sourceTree = "<group>"; };
+		93BB7CE627A073C700ECBD65 /* ImageAsBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAsBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				93BB7CB827A06FB400ECBD65 /* learningSwiftUIApp.swift */,
 				93BB7CE227A0728600ECBD65 /* Stacks.swift */,
 				93BB7CE427A0738400ECBD65 /* BadgeWithBlueBackground.swift */,
+				93BB7CE627A073C700ECBD65 /* ImageAsBackground.swift */,
 				93BB7CBA27A06FB400ECBD65 /* ContentView.swift */,
 				93BB7CBC27A06FB500ECBD65 /* Assets.xcassets */,
 				93BB7CBE27A06FB500ECBD65 /* Preview Content */,
@@ -267,6 +270,7 @@
 				93BB7CBB27A06FB400ECBD65 /* ContentView.swift in Sources */,
 				93BB7CB927A06FB400ECBD65 /* learningSwiftUIApp.swift in Sources */,
 				93BB7CE527A0738400ECBD65 /* BadgeWithBlueBackground.swift in Sources */,
+				93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
