@@ -17,6 +17,9 @@
 		93BB7CE327A0728600ECBD65 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CE227A0728600ECBD65 /* Stacks.swift */; };
 		93BB7CE527A0738400ECBD65 /* BadgeWithBlueBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CE427A0738400ECBD65 /* BadgeWithBlueBackground.swift */; };
 		93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CE627A073C700ECBD65 /* ImageAsBackground.swift */; };
+		93BB7CE927A0777100ECBD65 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CE827A0777100ECBD65 /* SidebarView.swift */; };
+		93BB7CEB27A07A1900ECBD65 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CEA27A07A1900ECBD65 /* HomeView.swift */; };
+		93BB7CED27A07A3F00ECBD65 /* TutorialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CEC27A07A3F00ECBD65 /* TutorialsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		93BB7CE227A0728600ECBD65 /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		93BB7CE427A0738400ECBD65 /* BadgeWithBlueBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeWithBlueBackground.swift; sourceTree = "<group>"; };
 		93BB7CE627A073C700ECBD65 /* ImageAsBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAsBackground.swift; sourceTree = "<group>"; };
+		93BB7CE827A0777100ECBD65 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		93BB7CEA27A07A1900ECBD65 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		93BB7CEC27A07A3F00ECBD65 /* TutorialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 		93BB7CB727A06FB400ECBD65 /* learningSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				93BB7CEE27A07B7E00ECBD65 /* Sidebar */,
 				93BB7CB827A06FB400ECBD65 /* learningSwiftUIApp.swift */,
 				93BB7CE227A0728600ECBD65 /* Stacks.swift */,
 				93BB7CE427A0738400ECBD65 /* BadgeWithBlueBackground.swift */,
@@ -134,6 +141,16 @@
 				93BB7CD527A06FB500ECBD65 /* learningSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = learningSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		93BB7CEE27A07B7E00ECBD65 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				93BB7CE827A0777100ECBD65 /* SidebarView.swift */,
+				93BB7CEA27A07A1900ECBD65 /* HomeView.swift */,
+				93BB7CEC27A07A3F00ECBD65 /* TutorialsView.swift */,
+			);
+			path = Sidebar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BB7CED27A07A3F00ECBD65 /* TutorialsView.swift in Sources */,
 				93BB7CE327A0728600ECBD65 /* Stacks.swift in Sources */,
+				93BB7CEB27A07A1900ECBD65 /* HomeView.swift in Sources */,
 				93BB7CBB27A06FB400ECBD65 /* ContentView.swift in Sources */,
 				93BB7CB927A06FB400ECBD65 /* learningSwiftUIApp.swift in Sources */,
 				93BB7CE527A0738400ECBD65 /* BadgeWithBlueBackground.swift in Sources */,
+				93BB7CE927A0777100ECBD65 /* SidebarView.swift in Sources */,
 				93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
