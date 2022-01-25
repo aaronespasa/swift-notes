@@ -1,2 +1,2 @@
-# swiftui-notes
+# SwiftUI notes
 My notes on SwiftUI
