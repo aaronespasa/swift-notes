@@ -14,6 +14,7 @@
 		93BB7CCA27A06FB500ECBD65 /* learningSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CC927A06FB500ECBD65 /* learningSwiftUITests.swift */; };
 		93BB7CD427A06FB500ECBD65 /* learningSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CD327A06FB500ECBD65 /* learningSwiftUIUITests.swift */; };
 		93BB7CD627A06FB500ECBD65 /* learningSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CD527A06FB500ECBD65 /* learningSwiftUIUITestsLaunchTests.swift */; };
+		93BB7CE327A0728600ECBD65 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB7CE227A0728600ECBD65 /* Stacks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		93BB7CCF27A06FB500ECBD65 /* learningSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learningSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BB7CD327A06FB500ECBD65 /* learningSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningSwiftUIUITests.swift; sourceTree = "<group>"; };
 		93BB7CD527A06FB500ECBD65 /* learningSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93BB7CE227A0728600ECBD65 /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				93BB7CB827A06FB400ECBD65 /* learningSwiftUIApp.swift */,
+				93BB7CE227A0728600ECBD65 /* Stacks.swift */,
 				93BB7CBA27A06FB400ECBD65 /* ContentView.swift */,
 				93BB7CBC27A06FB500ECBD65 /* Assets.xcassets */,
 				93BB7CBE27A06FB500ECBD65 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BB7CE327A0728600ECBD65 /* Stacks.swift in Sources */,
 				93BB7CBB27A06FB400ECBD65 /* ContentView.swift in Sources */,
 				93BB7CB927A06FB400ECBD65 /* learningSwiftUIApp.swift in Sources */,
 			);
