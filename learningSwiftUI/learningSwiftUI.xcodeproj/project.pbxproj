@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930EDEB727A1A7F100B676DD /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEB627A1A7F100B676DD /* AnimationView.swift */; };
 		937FB6FB27A0851D003F48D9 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937FB6FA27A0851D003F48D9 /* ToolbarView.swift */; };
 		937FB6FF27A0961F003F48D9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FD27A0961F003F48D9 /* OFL.txt */; };
 		937FB70027A0961F003F48D9 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		930EDEB627A1A7F100B676DD /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		937FB6FA27A0851D003F48D9 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 		937FB6FD27A0961F003F48D9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				93BB7CBE27A06FB500ECBD65 /* Preview Content */,
 				937FB70227A0A99E003F48D9 /* ListWithMaskView.swift */,
 				937FB70427A0AD0B003F48D9 /* TabPaginationView.swift */,
+				930EDEB627A1A7F100B676DD /* AnimationView.swift */,
 			);
 			path = learningSwiftUI;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				93BB7CBB27A06FB400ECBD65 /* ContentView.swift in Sources */,
 				93BB7CB927A06FB400ECBD65 /* learningSwiftUIApp.swift in Sources */,
 				93BB7CE527A0738400ECBD65 /* BadgeWithBlueBackground.swift in Sources */,
+				930EDEB727A1A7F100B676DD /* AnimationView.swift in Sources */,
 				93BB7CE927A0777100ECBD65 /* SidebarView.swift in Sources */,
 				93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */,
 			);
