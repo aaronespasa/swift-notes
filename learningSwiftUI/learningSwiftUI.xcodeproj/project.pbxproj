@@ -14,6 +14,7 @@
 		930EDEBF27A2808800B676DD /* TapAnimationDelayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEBE27A2808800B676DD /* TapAnimationDelayView.swift */; };
 		930EDEC327A298C100B676DD /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEC227A298C100B676DD /* LongPressGestureView.swift */; };
 		930EDEC527A299D500B676DD /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEC427A299D500B676DD /* DragGestureView.swift */; };
+		930EDEC727A29B7900B676DD /* MatchedGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */; };
 		937FB6FB27A0851D003F48D9 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937FB6FA27A0851D003F48D9 /* ToolbarView.swift */; };
 		937FB6FF27A0961F003F48D9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FD27A0961F003F48D9 /* OFL.txt */; };
 		937FB70027A0961F003F48D9 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */; };
@@ -56,6 +57,7 @@
 		930EDEBE27A2808800B676DD /* TapAnimationDelayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAnimationDelayView.swift; sourceTree = "<group>"; };
 		930EDEC227A298C100B676DD /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
 		930EDEC427A299D500B676DD /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryView.swift; sourceTree = "<group>"; };
 		937FB6FA27A0851D003F48D9 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 		937FB6FD27A0961F003F48D9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				930EDEBA27A1ACB400B676DD /* AnimationModifierView.swift */,
 				930EDEC227A298C100B676DD /* LongPressGestureView.swift */,
 				930EDEC427A299D500B676DD /* DragGestureView.swift */,
+				930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */,
 			);
 			path = learningSwiftUI;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				930EDEBB27A1ACB400B676DD /* AnimationModifierView.swift in Sources */,
 				930EDEC527A299D500B676DD /* DragGestureView.swift in Sources */,
 				93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */,
+				930EDEC727A29B7900B676DD /* MatchedGeometryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
