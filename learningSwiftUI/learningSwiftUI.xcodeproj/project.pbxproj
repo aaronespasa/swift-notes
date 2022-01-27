@@ -12,6 +12,7 @@
 		930EDEBB27A1ACB400B676DD /* AnimationModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEBA27A1ACB400B676DD /* AnimationModifierView.swift */; };
 		930EDEBD27A27D7400B676DD /* EffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEBC27A27D7400B676DD /* EffectsView.swift */; };
 		930EDEBF27A2808800B676DD /* TapAnimationDelayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEBE27A2808800B676DD /* TapAnimationDelayView.swift */; };
+		930EDEC327A298C100B676DD /* LongPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEC227A298C100B676DD /* LongPressView.swift */; };
 		937FB6FB27A0851D003F48D9 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937FB6FA27A0851D003F48D9 /* ToolbarView.swift */; };
 		937FB6FF27A0961F003F48D9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FD27A0961F003F48D9 /* OFL.txt */; };
 		937FB70027A0961F003F48D9 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */; };
@@ -52,6 +53,7 @@
 		930EDEBA27A1ACB400B676DD /* AnimationModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModifierView.swift; sourceTree = "<group>"; };
 		930EDEBC27A27D7400B676DD /* EffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsView.swift; sourceTree = "<group>"; };
 		930EDEBE27A2808800B676DD /* TapAnimationDelayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAnimationDelayView.swift; sourceTree = "<group>"; };
+		930EDEC227A298C100B676DD /* LongPressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressView.swift; sourceTree = "<group>"; };
 		937FB6FA27A0851D003F48D9 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 		937FB6FD27A0961F003F48D9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				930EDEB627A1A7F100B676DD /* AnimationView.swift */,
 				930EDEB827A1AA3800B676DD /* TransitionView.swift */,
 				930EDEBA27A1ACB400B676DD /* AnimationModifierView.swift */,
+				930EDEC227A298C100B676DD /* LongPressView.swift */,
 			);
 			path = learningSwiftUI;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930EDEC327A298C100B676DD /* LongPressView.swift in Sources */,
 				93BB7CED27A07A3F00ECBD65 /* TutorialsView.swift in Sources */,
 				93BB7CE327A0728600ECBD65 /* Stacks.swift in Sources */,
 				937FB6FB27A0851D003F48D9 /* ToolbarView.swift in Sources */,
