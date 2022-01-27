@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LongPressView: View {
+struct LongPressGestureView: View {
     @GestureState var press = false
     @State var show = false
     
@@ -30,8 +30,8 @@ struct LongPressView: View {
     }
 }
 
-struct LongPressView_Previews: PreviewProvider {
+struct LongPressGestureView_Previews: PreviewProvider {
     static var previews: some View {
-        LongPressView()
+        LongPressGestureView()
     }
 }
