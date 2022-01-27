@@ -118,8 +118,6 @@
 		93BB7CAC27A06FB400ECBD65 = {
 			isa = PBXGroup;
 			children = (
-				930EDEBE27A2808800B676DD /* TapAnimationDelayView.swift */,
-				930EDEBC27A27D7400B676DD /* EffectsView.swift */,
 				93BB7CB727A06FB400ECBD65 /* learningSwiftUI */,
 				93BB7CB627A06FB400ECBD65 /* Products */,
 			);
@@ -138,6 +136,8 @@
 		93BB7CB727A06FB400ECBD65 /* learningSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				930EDEBE27A2808800B676DD /* TapAnimationDelayView.swift */,
+				930EDEBC27A27D7400B676DD /* EffectsView.swift */,
 				937FB70127A09681003F48D9 /* Info.plist */,
 				937FB6F927A08505003F48D9 /* Toolbar */,
 				93BB7CEE27A07B7E00ECBD65 /* Sidebar */,
