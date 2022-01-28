@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		930EDEB727A1A7F100B676DD /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEB627A1A7F100B676DD /* AnimationView.swift */; };
 		930EDEB927A1AA3800B676DD /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEB827A1AA3800B676DD /* TransitionView.swift */; };
 		930EDEBB27A1ACB400B676DD /* AnimationModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEBA27A1ACB400B676DD /* AnimationModifierView.swift */; };
 		930EDEBD27A27D7400B676DD /* EffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEBC27A27D7400B676DD /* EffectsView.swift */; };
@@ -17,6 +16,7 @@
 		930EDEC727A29B7900B676DD /* MatchedGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */; };
 		930EDEC927A2A50400B676DD /* musicAppTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEC827A2A50400B676DD /* musicAppTransitionView.swift */; };
 		930EDECB27A2A68100B676DD /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDECA27A2A68100B676DD /* PlayView.swift */; };
+		9364351E27A5242A00E4F88D /* WithAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364351D27A5242A00E4F88D /* WithAnimationView.swift */; };
 		937FB6FB27A0851D003F48D9 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937FB6FA27A0851D003F48D9 /* ToolbarView.swift */; };
 		937FB6FF27A0961F003F48D9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FD27A0961F003F48D9 /* OFL.txt */; };
 		937FB70027A0961F003F48D9 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */; };
@@ -52,7 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		930EDEB627A1A7F100B676DD /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		930EDEB827A1AA3800B676DD /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		930EDEBA27A1ACB400B676DD /* AnimationModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModifierView.swift; sourceTree = "<group>"; };
 		930EDEBC27A27D7400B676DD /* EffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsView.swift; sourceTree = "<group>"; };
@@ -62,10 +61,11 @@
 		930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryView.swift; sourceTree = "<group>"; };
 		930EDEC827A2A50400B676DD /* musicAppTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicAppTransitionView.swift; sourceTree = "<group>"; };
 		930EDECA27A2A68100B676DD /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		9364351D27A5242A00E4F88D /* WithAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimationView.swift; sourceTree = "<group>"; };
 		937FB6FA27A0851D003F48D9 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 		937FB6FD27A0961F003F48D9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
-		937FB70127A09681003F48D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		937FB70127A09681003F48D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937FB70227A0A99E003F48D9 /* ListWithMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithMaskView.swift; sourceTree = "<group>"; };
 		937FB70427A0AD0B003F48D9 /* TabPaginationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPaginationView.swift; sourceTree = "<group>"; };
 		93BB7CB527A06FB400ECBD65 /* learningSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learningSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,8 +128,29 @@
 		93BB7CAC27A06FB400ECBD65 = {
 			isa = PBXGroup;
 			children = (
+				9364351D27A5242A00E4F88D /* WithAnimationView.swift */,
+				93BB7CB827A06FB400ECBD65 /* learningSwiftUIApp.swift */,
+				93BB7CE427A0738400ECBD65 /* BadgeWithBlueBackground.swift */,
 				930EDECA27A2A68100B676DD /* PlayView.swift */,
-				93BB7CB727A06FB400ECBD65 /* learningSwiftUI */,
+				930EDEBC27A27D7400B676DD /* EffectsView.swift */,
+				937FB70127A09681003F48D9 /* Info.plist */,
+				937FB6F927A08505003F48D9 /* Toolbar */,
+				93BB7CEE27A07B7E00ECBD65 /* Sidebar */,
+				93BB7CE227A0728600ECBD65 /* Stacks.swift */,
+				93BB7CE627A073C700ECBD65 /* ImageAsBackground.swift */,
+				93BB7CBA27A06FB400ECBD65 /* ContentView.swift */,
+				937FB6FC27A0961F003F48D9 /* Lobster */,
+				93BB7CBC27A06FB500ECBD65 /* Assets.xcassets */,
+				93BB7CBE27A06FB500ECBD65 /* Preview Content */,
+				937FB70227A0A99E003F48D9 /* ListWithMaskView.swift */,
+				937FB70427A0AD0B003F48D9 /* TabPaginationView.swift */,
+				930EDEB827A1AA3800B676DD /* TransitionView.swift */,
+				930EDEBA27A1ACB400B676DD /* AnimationModifierView.swift */,
+				930EDEC227A298C100B676DD /* LongPressGestureView.swift */,
+				930EDEC427A299D500B676DD /* DragGestureView.swift */,
+				930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */,
+				930EDEC827A2A50400B676DD /* musicAppTransitionView.swift */,
+				930EDEBE27A2808800B676DD /* TapAnimationDelayView.swift */,
 				93BB7CB627A06FB400ECBD65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,35 +163,6 @@
 				93BB7CCF27A06FB500ECBD65 /* learningSwiftUIUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		93BB7CB727A06FB400ECBD65 /* learningSwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				930EDEBE27A2808800B676DD /* TapAnimationDelayView.swift */,
-				930EDEBC27A27D7400B676DD /* EffectsView.swift */,
-				937FB70127A09681003F48D9 /* Info.plist */,
-				937FB6F927A08505003F48D9 /* Toolbar */,
-				93BB7CEE27A07B7E00ECBD65 /* Sidebar */,
-				93BB7CB827A06FB400ECBD65 /* learningSwiftUIApp.swift */,
-				93BB7CE227A0728600ECBD65 /* Stacks.swift */,
-				93BB7CE427A0738400ECBD65 /* BadgeWithBlueBackground.swift */,
-				93BB7CE627A073C700ECBD65 /* ImageAsBackground.swift */,
-				93BB7CBA27A06FB400ECBD65 /* ContentView.swift */,
-				937FB6FC27A0961F003F48D9 /* Lobster */,
-				93BB7CBC27A06FB500ECBD65 /* Assets.xcassets */,
-				93BB7CBE27A06FB500ECBD65 /* Preview Content */,
-				937FB70227A0A99E003F48D9 /* ListWithMaskView.swift */,
-				937FB70427A0AD0B003F48D9 /* TabPaginationView.swift */,
-				930EDEB627A1A7F100B676DD /* AnimationView.swift */,
-				930EDEB827A1AA3800B676DD /* TransitionView.swift */,
-				930EDEBA27A1ACB400B676DD /* AnimationModifierView.swift */,
-				930EDEC227A298C100B676DD /* LongPressGestureView.swift */,
-				930EDEC427A299D500B676DD /* DragGestureView.swift */,
-				930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */,
-				930EDEC827A2A50400B676DD /* musicAppTransitionView.swift */,
-			);
-			path = learningSwiftUI;
 			sourceTree = "<group>";
 		};
 		93BB7CBE27A06FB500ECBD65 /* Preview Content */ = {
@@ -324,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				930EDEC327A298C100B676DD /* LongPressGestureView.swift in Sources */,
+				9364351E27A5242A00E4F88D /* WithAnimationView.swift in Sources */,
 				93BB7CED27A07A3F00ECBD65 /* TutorialsView.swift in Sources */,
 				93BB7CE327A0728600ECBD65 /* Stacks.swift in Sources */,
 				930EDECB27A2A68100B676DD /* PlayView.swift in Sources */,
@@ -337,7 +330,6 @@
 				93BB7CBB27A06FB400ECBD65 /* ContentView.swift in Sources */,
 				93BB7CB927A06FB400ECBD65 /* learningSwiftUIApp.swift in Sources */,
 				93BB7CE527A0738400ECBD65 /* BadgeWithBlueBackground.swift in Sources */,
-				930EDEB727A1A7F100B676DD /* AnimationView.swift in Sources */,
 				930EDEBD27A27D7400B676DD /* EffectsView.swift in Sources */,
 				93BB7CE927A0777100ECBD65 /* SidebarView.swift in Sources */,
 				930EDEBB27A1ACB400B676DD /* AnimationModifierView.swift in Sources */,
@@ -500,7 +492,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"learningSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = learningSwiftUI/Info.plist;
@@ -529,7 +521,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"learningSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = learningSwiftUI/Info.plist;

@@ -1,13 +1,13 @@
 //
-//  AnimationView.swift
+//  WithAnimationView.swift
 //  learningSwiftUI
 //
-//  Created by Aarón Espasandín on 26/1/22.
+//  Created by Aarón Espasandín on 29/1/22.
 //
 
 import SwiftUI
 
-struct AnimationView: View {
+struct WithAnimationView: View {
     @State var show = false
     
     var body: some View {
@@ -26,10 +26,11 @@ struct AnimationView: View {
             }
         }
     }
+
 }
 
-struct AnimationView_Previews: PreviewProvider {
+struct WithAnimationView_Previews: PreviewProvider {
     static var previews: some View {
-        AnimationView()
+        WithAnimationView()
     }
 }
