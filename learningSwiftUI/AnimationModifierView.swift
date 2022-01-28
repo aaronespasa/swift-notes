@@ -21,14 +21,20 @@ struct AnimationModifierView: View {
                 .opacity(show ? 1 : 0.5)
                 .padding(show ? 16 : 32)
                 .offset(y: show ? 0 : 30)
-                .animation(.spring(response: 0.4, dampingFraction: 0.6))
+                .animation(
+                    Animation.spring(response: 0.4, dampingFraction: 0.6),
+                    value: show
+                )
             RoundedRectangle(cornerRadius: 40)
                 .frame(height: 300)
                 .offset(y: show ? 600 : 0)
                 .foregroundColor(.white)
                 .shadow(radius: 40)
                 .padding()
-                .animation(.timingCurve(0.2, 0.8, 0.2, 1.0, duration: 0.8))
+                .animation(
+                    Animation.timingCurve(0.2, 0.8, 0.2, 1.0, duration: 0.8),
+                    value: show
+                )
         }
         .onTapGesture {
             withAnimation(.linear(duration: 0.8)) {

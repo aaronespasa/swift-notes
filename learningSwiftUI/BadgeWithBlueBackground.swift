@@ -56,7 +56,10 @@ struct AnimateBackground: View {
     
     var body: some View {
         LinearGradient(gradient: Gradient(colors: colors), startPoint: start, endPoint: end)
-            .animation(Animation.easeInOut(duration: 3).repeatForever())
+            .animation(
+                Animation.easeInOut(duration: 3).repeatForever(),
+                value: start
+            )
             .onReceive(timer, perform: { _ in
                 self.start = UnitPoint(x: 4, y: 0)
                 self.end = UnitPoint(x: 0, y: 2)
