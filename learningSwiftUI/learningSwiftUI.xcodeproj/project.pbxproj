@@ -16,6 +16,7 @@
 		930EDEC727A29B7900B676DD /* MatchedGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */; };
 		930EDEC927A2A50400B676DD /* musicAppTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDEC827A2A50400B676DD /* musicAppTransitionView.swift */; };
 		930EDECB27A2A68100B676DD /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDECA27A2A68100B676DD /* PlayView.swift */; };
+		9350A83927A56E3500874DB8 /* AppNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350A83827A56E3500874DB8 /* AppNavigationView.swift */; };
 		9364351E27A5242A00E4F88D /* WithAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364351D27A5242A00E4F88D /* WithAnimationView.swift */; };
 		9364352027A528D500E4F88D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364351F27A528D500E4F88D /* LottieView.swift */; };
 		9364352327A5299100E4F88D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9364352227A5299100E4F88D /* Lottie */; };
@@ -66,6 +67,7 @@
 		930EDEC627A29B7900B676DD /* MatchedGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryView.swift; sourceTree = "<group>"; };
 		930EDEC827A2A50400B676DD /* musicAppTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicAppTransitionView.swift; sourceTree = "<group>"; };
 		930EDECA27A2A68100B676DD /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		9350A83827A56E3500874DB8 /* AppNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationView.swift; sourceTree = "<group>"; };
 		9364351D27A5242A00E4F88D /* WithAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimationView.swift; sourceTree = "<group>"; };
 		9364351F27A528D500E4F88D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		9364352427A529F600E4F88D /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		93BB7CAC27A06FB400ECBD65 = {
 			isa = PBXGroup;
 			children = (
+				9350A83827A56E3500874DB8 /* AppNavigationView.swift */,
 				9364352827A56C3400E4F88D /* LazyStacksView.swift */,
 				9364352627A52FE900E4F88D /* LazyGridView.swift */,
 				9364351F27A528D500E4F88D /* LottieView.swift */,
@@ -358,6 +361,7 @@
 				93BB7CE927A0777100ECBD65 /* SidebarView.swift in Sources */,
 				930EDEBB27A1ACB400B676DD /* AnimationModifierView.swift in Sources */,
 				930EDEC527A299D500B676DD /* DragGestureView.swift in Sources */,
+				9350A83927A56E3500874DB8 /* AppNavigationView.swift in Sources */,
 				93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */,
 				930EDEC727A29B7900B676DD /* MatchedGeometryView.swift in Sources */,
 			);
