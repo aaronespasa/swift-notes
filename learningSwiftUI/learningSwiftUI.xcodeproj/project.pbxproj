@@ -19,6 +19,7 @@
 		9350A83927A56E3500874DB8 /* AppNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350A83827A56E3500874DB8 /* AppNavigationView.swift */; };
 		9350A83B27A5713B00874DB8 /* WebLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350A83A27A5713B00874DB8 /* WebLinksView.swift */; };
 		9350A83D27A58BF300874DB8 /* AppColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350A83C27A58BF300874DB8 /* AppColorPickerView.swift */; };
+		9350A83F27A5923200874DB8 /* AppDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350A83E27A5923100874DB8 /* AppDatePickerView.swift */; };
 		9364351E27A5242A00E4F88D /* WithAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364351D27A5242A00E4F88D /* WithAnimationView.swift */; };
 		9364352027A528D500E4F88D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364351F27A528D500E4F88D /* LottieView.swift */; };
 		9364352327A5299100E4F88D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9364352227A5299100E4F88D /* Lottie */; };
@@ -72,6 +73,7 @@
 		9350A83827A56E3500874DB8 /* AppNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationView.swift; sourceTree = "<group>"; };
 		9350A83A27A5713B00874DB8 /* WebLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLinksView.swift; sourceTree = "<group>"; };
 		9350A83C27A58BF300874DB8 /* AppColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorPickerView.swift; sourceTree = "<group>"; };
+		9350A83E27A5923100874DB8 /* AppDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatePickerView.swift; sourceTree = "<group>"; };
 		9364351D27A5242A00E4F88D /* WithAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimationView.swift; sourceTree = "<group>"; };
 		9364351F27A528D500E4F88D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		9364352427A529F600E4F88D /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		93BB7CAC27A06FB400ECBD65 = {
 			isa = PBXGroup;
 			children = (
+				9350A83E27A5923100874DB8 /* AppDatePickerView.swift */,
 				9350A83C27A58BF300874DB8 /* AppColorPickerView.swift */,
 				9350A83A27A5713B00874DB8 /* WebLinksView.swift */,
 				9350A83827A56E3500874DB8 /* AppNavigationView.swift */,
@@ -371,6 +374,7 @@
 				930EDEC527A299D500B676DD /* DragGestureView.swift in Sources */,
 				9350A83927A56E3500874DB8 /* AppNavigationView.swift in Sources */,
 				93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */,
+				9350A83F27A5923200874DB8 /* AppDatePickerView.swift in Sources */,
 				930EDEC727A29B7900B676DD /* MatchedGeometryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
