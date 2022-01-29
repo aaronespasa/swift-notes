@@ -21,6 +21,7 @@
 		9364352327A5299100E4F88D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9364352227A5299100E4F88D /* Lottie */; };
 		9364352527A529F600E4F88D /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 9364352427A529F600E4F88D /* success.json */; };
 		9364352727A52FE900E4F88D /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364352627A52FE900E4F88D /* LazyGridView.swift */; };
+		9364352927A56C3400E4F88D /* LazyStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364352827A56C3400E4F88D /* LazyStacksView.swift */; };
 		937FB6FB27A0851D003F48D9 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937FB6FA27A0851D003F48D9 /* ToolbarView.swift */; };
 		937FB6FF27A0961F003F48D9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FD27A0961F003F48D9 /* OFL.txt */; };
 		937FB70027A0961F003F48D9 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */; };
@@ -69,6 +70,7 @@
 		9364351F27A528D500E4F88D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		9364352427A529F600E4F88D /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		9364352627A52FE900E4F88D /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
+		9364352827A56C3400E4F88D /* LazyStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStacksView.swift; sourceTree = "<group>"; };
 		937FB6FA27A0851D003F48D9 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 		937FB6FD27A0961F003F48D9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		937FB6FE27A0961F003F48D9 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		93BB7CAC27A06FB400ECBD65 = {
 			isa = PBXGroup;
 			children = (
+				9364352827A56C3400E4F88D /* LazyStacksView.swift */,
 				9364352627A52FE900E4F88D /* LazyGridView.swift */,
 				9364351F27A528D500E4F88D /* LottieView.swift */,
 				9364351D27A5242A00E4F88D /* WithAnimationView.swift */,
@@ -344,6 +347,7 @@
 				930EDEBF27A2808800B676DD /* TapAnimationDelayView.swift in Sources */,
 				9364352027A528D500E4F88D /* LottieView.swift in Sources */,
 				930EDEC927A2A50400B676DD /* musicAppTransitionView.swift in Sources */,
+				9364352927A56C3400E4F88D /* LazyStacksView.swift in Sources */,
 				937FB70527A0AD0B003F48D9 /* TabPaginationView.swift in Sources */,
 				937FB70327A0A99E003F48D9 /* ListWithMaskView.swift in Sources */,
 				93BB7CBB27A06FB400ECBD65 /* ContentView.swift in Sources */,
