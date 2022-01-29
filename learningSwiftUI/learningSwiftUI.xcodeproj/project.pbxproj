@@ -18,6 +18,7 @@
 		930EDECB27A2A68100B676DD /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EDECA27A2A68100B676DD /* PlayView.swift */; };
 		9329C2DC27A599D100274B4B /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9329C2DB27A599D100274B4B /* BindingView.swift */; };
 		9329C2DE27A59B2C00274B4B /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9329C2DD27A59B2C00274B4B /* NewView.swift */; };
+		9329C2E027A5BAF600274B4B /* StaticDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9329C2DF27A5BAF600274B4B /* StaticDataView.swift */; };
 		9350A83927A56E3500874DB8 /* AppNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350A83827A56E3500874DB8 /* AppNavigationView.swift */; };
 		9350A83B27A5713B00874DB8 /* WebLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350A83A27A5713B00874DB8 /* WebLinksView.swift */; };
 		9350A83D27A58BF300874DB8 /* AppColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350A83C27A58BF300874DB8 /* AppColorPickerView.swift */; };
@@ -74,6 +75,7 @@
 		930EDECA27A2A68100B676DD /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 		9329C2DB27A599D100274B4B /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		9329C2DD27A59B2C00274B4B /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		9329C2DF27A5BAF600274B4B /* StaticDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDataView.swift; sourceTree = "<group>"; };
 		9350A83827A56E3500874DB8 /* AppNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationView.swift; sourceTree = "<group>"; };
 		9350A83A27A5713B00874DB8 /* WebLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLinksView.swift; sourceTree = "<group>"; };
 		9350A83C27A58BF300874DB8 /* AppColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorPickerView.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		93BB7CAC27A06FB400ECBD65 = {
 			isa = PBXGroup;
 			children = (
+				9329C2DF27A5BAF600274B4B /* StaticDataView.swift */,
 				9329C2DA27A5970300274B4B /* Binding */,
 				9350A83E27A5923100874DB8 /* AppDatePickerView.swift */,
 				9350A83C27A58BF300874DB8 /* AppColorPickerView.swift */,
@@ -387,6 +390,7 @@
 				9364352727A52FE900E4F88D /* LazyGridView.swift in Sources */,
 				93BB7CE927A0777100ECBD65 /* SidebarView.swift in Sources */,
 				930EDEBB27A1ACB400B676DD /* AnimationModifierView.swift in Sources */,
+				9329C2E027A5BAF600274B4B /* StaticDataView.swift in Sources */,
 				930EDEC527A299D500B676DD /* DragGestureView.swift in Sources */,
 				9350A83927A56E3500874DB8 /* AppNavigationView.swift in Sources */,
 				93BB7CE727A073C700ECBD65 /* ImageAsBackground.swift in Sources */,
